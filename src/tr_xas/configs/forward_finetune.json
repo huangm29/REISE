@@ -1,0 +1,6 @@
+{
+  "stage": "finetune",
+  "reference_config": "vendor/fluxxas/logs/joint_multi_tr1x_finetune_v2_2026-07-24_22-18/config.json",
+  "overrides": {}
+}
+

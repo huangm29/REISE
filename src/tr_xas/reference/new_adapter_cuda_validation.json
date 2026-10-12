@@ -1,0 +1,64 @@
+{
+  "python": "3.9.23",
+  "torch": "2.6.0+cu124",
+  "numpy": "1.26.3",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [],
+  "demo": {
+    "device": "cuda",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.3",
+    "status": "PASS",
+    "strict_comparison_requested": true,
+    "cases": [
+      {
+        "fraction": 0.0,
+        "argmax_time_fs": 132.0,
+        "maximum_score": 0.07843887060880661,
+        "max_abs_difference": {
+          "features": 0.0,
+          "tcn_raw": 0.0,
+          "tcn_smoothed": 0.0,
+          "tcn_seed_std": 0.0
+        },
+        "strict_tolerances_pass": true
+      },
+      {
+        "fraction": 0.5,
+        "argmax_time_fs": 83.0,
+        "maximum_score": 0.474606990814209,
+        "max_abs_difference": {
+          "features": 0.0,
+          "tcn_raw": 0.0,
+          "tcn_smoothed": 0.0,
+          "tcn_seed_std": 0.0
+        },
+        "strict_tolerances_pass": true
+      },
+      {
+        "fraction": 1.0,
+        "argmax_time_fs": 108.0,
+        "maximum_score": 0.7278103828430176,
+        "max_abs_difference": {
+          "features": 0.0,
+          "tcn_raw": 0.0,
+          "tcn_smoothed": 0.0,
+          "tcn_seed_std": 0.0
+        },
+        "strict_tolerances_pass": true
+      }
+    ]
+  },
+  "forward": {
+    "status": "PASS",
+    "input": "synthetic H2O geometry, software smoke only",
+    "shape": [
+      1,
+      3,
+      200
+    ]
+  },
+  "status": "PASS"
+}

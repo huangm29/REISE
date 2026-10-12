@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "python": "3.9.23",
+  "numpy": "1.26.3",
+  "torch": "2.6.0+cu124",
+  "models": {
+    "encoder": {
+      "taskB_B3_seed0.pt": "dc8168521cf6b828ef9b7f0391da764326929220d5515dbb2f8903c4fc96fd0e",
+      "taskB_B3_seed1.pt": "10c59a78a2a2f3a5c9655fb4a5013905ad6e09fcabb3d770fe3af2a5333a0d4c",
+      "taskB_B3_seed2.pt": "a3af50759ab2c9f9d1636b5aa4a5dbfa90a27c0eb394976db3533a784109bac9",
+      "taskB_B3_seed3.pt": "f09193378572ef41f0c82d12348a992c5754ad6764197d3c077da13ea2e48f48",
+      "taskB_B3_seed4.pt": "890b4a9584faba56ebc135547174f39b773cbc3c607ea0052c139b05820f54b1"
+    },
+    "tcn": {
+      "seed0.pt": "332cf96af6053f9c4a41a8e7968c441adb4f76e578757a81875234cdda121888",
+      "seed1.pt": "fbfcfb3d2c9ba8ff77cbcf5d913aa11e727ac18a9b24aa0fe75a24cafa5ea73a",
+      "seed2.pt": "325f5cf2406a0b32fcec0055c581632bddc7ecfd354de9248aaaa4f984f44340",
+      "seed3.pt": "47357a82220f5b52030e6de07435ca1cd667bdef924a70be951aee1f71e00483",
+      "seed4.pt": "dc71f337ae8ae8dea69cca965d7fb9609f9e93194b7527b904d2d552035c742d"
+    }
+  },
+  "comparison": "Existing saved Figure 5 mixture traces; no retraining or recalibration",
+  "cases": [
+    {
+      "reactive_fraction": 0.0,
+      "argmax_frame": 132,
+      "argmax_time_fs": 132.0,
+      "maximum_score": 0.07843887060880661,
+      "max_abs_difference": {
+        "features": 0.0,
+        "tcn_raw": 0.0,
+        "tcn_smoothed": 0.0,
+        "tcn_seed_std": 0.0
+      },
+      "background_argmax_is_not_event_evidence": true
+    },
+    {
+      "reactive_fraction": 0.5,
+      "argmax_frame": 83,
+      "argmax_time_fs": 83.0,
+      "maximum_score": 0.474606990814209,
+      "max_abs_difference": {
+        "features": 0.0,
+        "tcn_raw": 0.0,
+        "tcn_smoothed": 0.0,
+        "tcn_seed_std": 0.0
+      },
+      "background_argmax_is_not_event_evidence": false
+    },
+    {
+      "reactive_fraction": 1.0,
+      "argmax_frame": 108,
+      "argmax_time_fs": 108.0,
+      "maximum_score": 0.7278103828430176,
+      "max_abs_difference": {
+        "features": 0.0,
+        "tcn_raw": 0.0,
+        "tcn_smoothed": 0.0,
+        "tcn_seed_std": 0.0
+      },
+      "background_argmax_is_not_event_evidence": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Local environments and generated outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+runs/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Private data, locations and credentials
+paths.local.json
+paths.*.local.json
+private/
+data/
+weights/
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.pkl
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.gz
+
+# Deliberately included small example and rotation constants
+!examples/demo_assets/*.npz
+!examples/demo_assets/encoder/checkpoints/taskB_B3_seed[0-4].pt
+!examples/demo_assets/tcn/seed[0-4].pt
+!src/tr_xas/vendor/fluxxas/src/model/equiformer_v2/Jd.pt

@@ -1,0 +1,7 @@
+# Preserve reference bytes and cross-platform hash checks.
+* -text
+*.py diff
+*.md diff
+*.json diff
+*.pt binary
+*.npz binary

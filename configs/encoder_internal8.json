@@ -1,0 +1,12 @@
+{
+  "model": "B3",
+  "frame_scope": "internal8",
+  "seeds": [0, 1, 2, 3, 4],
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "patience": 10,
+  "max_epochs": 100,
+  "device": "cuda",
+  "initial_checkpoint": null
+}
+

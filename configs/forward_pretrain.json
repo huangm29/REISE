@@ -1,0 +1,6 @@
+{
+  "stage": "pretrain",
+  "reference_config": "vendor/fluxxas/logs/joint_multi_keepzeros_2026-06-03_08-12/config.json",
+  "overrides": {}
+}
+

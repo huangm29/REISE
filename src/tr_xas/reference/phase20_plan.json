@@ -1,0 +1,73 @@
+{
+  "status": "FROZEN_BEFORE_PHASE20_XAS_FEATURES_OR_TCN_TRAINING",
+  "scientific_question": "Does increasing chemically distinct reactive training reactions improve temporal localization when the event position is not fixed at the sequence midpoint?",
+  "phase20d_public_manifest_sha256": "ad9ba094ef7aca2500223c3a6c7c9eaabc035dd90f5a173318aedfa66a3ff3c3",
+  "data_policy": {
+    "official_source_splits": ["train", "val"],
+    "official_test_loaded": false,
+    "train_validation_formula_overlap": [],
+    "primary_training_reactions": 617,
+    "fixed_validation_reactions": 47,
+    "window_frames": 201,
+    "time_grid_fs": 1.0,
+    "event_position_policy": "SHA256-frozen random crop; no time, source index, projected_s, s_TS, or event position is supplied as model input",
+    "primary_pair_selection": "trajectory-gate-pass reactions; reactive pairs only; collision-free; max NVE drift <=0.01 eV",
+    "nonreactive_TS_start_pairs": "retained in Phase20C but excluded from primary training because they still contain TS-like frames and are not valid stable negatives",
+    "stable_endpoint_negatives": "not used in the reaction-count ablation; evaluate separately without changing the localization model"
+  },
+  "nested_prefixes": [50, 100, 250, 500, 800, 1200],
+  "expected_usable_train_reactions": [17, 43, 113, 250, 404, 617],
+  "features": {
+    "source": "frozen five-seed B3v1 representations from C/N/O K-edge XAS",
+    "per_frame_scalars": [
+      "ensemble_expected_s",
+      "ensemble_s_dispersion",
+      "ensemble_near_probability",
+      "ensemble_predicted_d_TS",
+      "ensemble_predicted_delta_E_R",
+      "ensemble_predicted_signed_delta_s"
+    ],
+    "temporal_features": "six scalar values plus their first differences",
+    "model_input_features": 12
+  },
+  "model": {
+    "architecture": "fixed Phase19 scalar residual TCN",
+    "channels": 48,
+    "kernel_size": 3,
+    "dilations": [1, 2, 4, 8, 16, 32],
+    "padding": "replicate",
+    "dropout": 0.1,
+    "training_seeds": [0, 1, 2],
+    "largest_prefix_confirmation_seeds": [3, 4],
+    "epochs": 100,
+    "batch_size": 8,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "gradient_clip": 5.0,
+    "loss": "balanced BCE + hard-negative ranking + 0.25*Gaussian listwise center + expected absolute delta-s",
+    "ranking_margin": 0.5,
+    "hard_negative_topk": 10,
+    "gaussian_sigma_s": 0.10
+  },
+  "evaluation": {
+    "fixed_validation": "all 47 formula-disjoint official-validation reactions for every training prefix",
+    "selector": "global argmax of the three-seed mean probability after fixed 9-fs persistence smoothing",
+    "primary_metric": "reaction-macro probability that the selected frame satisfies |s-s_TS|<0.10",
+    "secondary_metrics": [
+      "trajectory success",
+      "median selected |s-s_TS|",
+      "median absolute index error from closest-s frame",
+      "edge-selection rate"
+    ],
+    "baselines": [
+      "fixed sequence midpoint",
+      "frozen framewise B3v1 near-probability argmax",
+      "uniform random-frame expectation"
+    ],
+    "uncertainty": "paired reaction-cluster bootstrap with 10000 replicates",
+    "threshold_tuning": false,
+    "hyperparameter_selection_on_phase20_validation": false
+  },
+  "advance_rule": "Report the full learning curve without selecting a favorable prefix; use the 617-reaction five-seed model as the final Phase20 detector.",
+  "test_policy": "Official Transition1x test trajectories, labels, formulas, outcomes, and prior test metrics are not read during Phase20 training or validation."
+}

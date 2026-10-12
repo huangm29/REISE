@@ -1,0 +1,45 @@
+{
+  "device": "cpu",
+  "torch": "2.14.0+cpu",
+  "numpy": "2.5.2",
+  "status": "NUMERIC_DIFFERENCE",
+  "strict_comparison_requested": false,
+  "cases": [
+    {
+      "fraction": 0.0,
+      "argmax_time_fs": 132.0,
+      "maximum_score": 0.07840597629547119,
+      "max_abs_difference": {
+        "features": 3.129243850708008e-07,
+        "tcn_raw": 0.0001780986785888672,
+        "tcn_smoothed": 8.626282215118408e-05,
+        "tcn_seed_std": 0.00027570128440856934
+      },
+      "strict_tolerances_pass": false
+    },
+    {
+      "fraction": 0.5,
+      "argmax_time_fs": 83.0,
+      "maximum_score": 0.47441738843917847,
+      "max_abs_difference": {
+        "features": 9.5367431640625e-07,
+        "tcn_raw": 0.00046369433403015137,
+        "tcn_smoothed": 0.0003241300582885742,
+        "tcn_seed_std": 0.000918164849281311
+      },
+      "strict_tolerances_pass": false
+    },
+    {
+      "fraction": 1.0,
+      "argmax_time_fs": 108.0,
+      "maximum_score": 0.7278414964675903,
+      "max_abs_difference": {
+        "features": 1.430511474609375e-06,
+        "tcn_raw": 0.0004259347915649414,
+        "tcn_smoothed": 0.00021088123321533203,
+        "tcn_seed_std": 0.0004057884216308594
+      },
+      "strict_tolerances_pass": false
+    }
+  ]
+}

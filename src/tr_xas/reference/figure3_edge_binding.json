@@ -1,0 +1,25 @@
+{
+  "purpose": "Figure 3g: frozen main Encoder, single-edge input ablation on the same CNO-containing official test reactions",
+  "date": "2026-09-17",
+  "data_root": "data/archive/XASNet/t1x_xas_dataset_v2",
+  "primary_scope": "internal8",
+  "supplementary_scope": "all10",
+  "primary_masks": ["C", "N", "O", "CNO"],
+  "supplementary_masks": ["CN", "CO", "NO"],
+  "masking": "Same mask applied to R, query and P; normalized excluded spectra set to zero and presence flag set to zero, invoking the frozen learned absent embedding. Composition unchanged.",
+  "cohort": "All official test reactions with physical C, N and O atoms AND available spectra for all three edges at every input role/frame. No outcome filtering.",
+  "interpretation": "Inference-time missing-edge stress test of the existing multi-edge model; no single-edge retraining or model selection.",
+  "bootstrap": {"unit": "reaction", "n": 10000, "seed": 20260917},
+  "reference_reproduction_atol": 0.0001,
+  "checkpoint_sha256": [
+    "dc8168521cf6b828ef9b7f0391da764326929220d5515dbb2f8903c4fc96fd0e",
+    "10c59a78a2a2f3a5c9655fb4a5013905ad6e09fcabb3d770fe3af2a5333a0d4c",
+    "a3af50759ab2c9f9d1636b5aa4a5dbfa90a27c0eb394976db3533a784109bac9",
+    "f09193378572ef41f0c82d12348a992c5754ad6764197d3c077da13ea2e48f48",
+    "890b4a9584faba56ebc135547174f39b773cbc3c607ea0052c139b05820f54b1"
+  ],
+  "model_script_sha256": "c51cca15a28b14ed1d2bd4fe3c6ca9334ec3533a13b5363bedf7de9c682c4762",
+  "data_script_sha256": "01f4a8905cf5375a539143999d3072dfb52cce605f1a0132e4ef466eae38f109",
+  "norm_sha256": "1e16b42130884e8e44526921ad55d0606bdbd2d4794b27d833bb9756d169a739",
+  "reference_sha256": "4deef5fe5df49b2c604ac62015e99981544a29eed9375fae9e25e3f09f357187"
+}

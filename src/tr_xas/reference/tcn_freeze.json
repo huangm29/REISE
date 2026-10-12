@@ -1,0 +1,29 @@
+{
+  "status": "PHASE20F_MODELS_FROZEN_ON_OFFICIAL_TRAINVAL_WITH_TEST_UNTOUCHED",
+  "frozen_utc": "2026-08-21T17:41:18.714857+00:00",
+  "official_test_loaded": false,
+  "files_sha256": {
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/phase20f_learning_curve_summary.json": "4d6638b0c606eece4166d03bab3fd7d184c30815dc57c995508249a9f8e8e9d3",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/input/phase20f_tcn_learning_curve_plan.json": "e223c09ffbc35bf44f697612c68a17dbe5ecf976ed01d335011d0ea72730b0f0",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix100/seed0.pt": "97946cf5ed7cf7f426dff5b150b33fd3ed70791da9e39921cf5afed82f3f0a49",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix100/seed1.pt": "2cd438177c708c250ac29ffd9fdfee03b2099c8490dab7d7feea1d709e0b871f",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix100/seed2.pt": "ef739c1301a3e49258015fedc24b88f95b4d4c0b897bbcd5c2480a3d930c461f",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix1200/seed0.pt": "332cf96af6053f9c4a41a8e7968c441adb4f76e578757a81875234cdda121888",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix1200/seed1.pt": "fbfcfb3d2c9ba8ff77cbcf5d913aa11e727ac18a9b24aa0fe75a24cafa5ea73a",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix1200/seed2.pt": "325f5cf2406a0b32fcec0055c581632bddc7ecfd354de9248aaaa4f984f44340",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix1200/seed3.pt": "47357a82220f5b52030e6de07435ca1cd667bdef924a70be951aee1f71e00483",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix1200/seed4.pt": "dc71f337ae8ae8dea69cca965d7fb9609f9e93194b7527b904d2d552035c742d",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix250/seed0.pt": "9ee6a07b29c1dc8761f7de8c13273b978efb6d87491ce060ff2a495b57d935ad",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix250/seed1.pt": "9ecf50b2fcf80758dbc1fcb8a7ff54bad3916932fe8b4b605dc8429001949162",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix250/seed2.pt": "dce3adb8a4382f227488eed30e6def080a04495aa2da4f0b5c698f114436730c",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix50/seed0.pt": "eacf1a463380f1ac681efcb418f3645a7f660dc86eb25d5157b51eb5213cbd86",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix50/seed1.pt": "4f682bc314cdb3818bf27a505789824d607121334ce47dc15d327608b3174d68",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix50/seed2.pt": "37022eec0479207f50b1b3b490b045b565c69ae062506105b47c4b92f411c4ef",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix500/seed0.pt": "f9c8976910601ca1addc92e75a1fa690e0f7a2cb3f6c3402ba826f66c5d5db0e",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix500/seed1.pt": "2481779c01214e95c70e33a65c780fb55f1bdefdef5f444d81640d4f1284f29e",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix500/seed2.pt": "34089fef0a483d33406cc551c44e6d64c13e4855e535029f6f5171ccae3c06a0",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix800/seed0.pt": "92dfb2f29536b8454e1a4aa169690b4072e0d7398e969e410a37d1b532a771ea",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix800/seed1.pt": "084ae026c2d6123b0417623992dcc543daf21fea384d61d3bb1288c690e0ae20",
+    "data/archive/XASNet/trajectory_inference/phase20/phase20d_20260821_130436/phase20f_tcn_learning_curve/checkpoints/prefix800/seed2.pt": "a1b97abec34e3eefea74f61224d47d29c2cee633e872448d6ea7731dc779a90e"
+  }
+}

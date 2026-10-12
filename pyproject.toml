@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tr-xas-models"
+version = "0.2.1"
+description = "REISE: Reaction Event Inference from Spectral Evolution, with optional FluxXAS spectral generation"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy>=1.26,<2", "torch==2.6.0"]
+
+[project.optional-dependencies]
+train = ["scipy>=1.13,<2", "scikit-learn>=1.4,<2"]
+dev = ["build>=1.2"]
+
+[project.scripts]
+tr-xas = "tr_xas.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tr_xas", "tr_xas.*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+tr_xas = ["vendor/**/*.json", "vendor/**/*.yaml", "vendor/**/*.pt", "reference/*.json", "configs/*.json", "licenses/*"]

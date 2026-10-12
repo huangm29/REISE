@@ -1,0 +1,528 @@
+[
+  {
+    "path": "__init__.py",
+    "sha256": "d04c6baa715dcdaed4a047094f378990e9423286f6839f0e86aa8cd7fb732186",
+    "bytes": 107,
+    "original_source": "tr_xas/__init__.py",
+    "original_sha256": "fbf3ad7e4b016bf82c0bc5ebc378354f8c1ab707f6f9a7b9b42db96e5c42e455",
+    "modified_for_release": true
+  },
+  {
+    "path": "__main__.py",
+    "sha256": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "bytes": 61,
+    "original_source": "added_for_core_release"
+  },
+  {
+    "path": "cli.py",
+    "sha256": "1752bc7911441f237af4c1372881e7e6a3df65020dabfd5686d4750f21b30f21",
+    "bytes": 7638,
+    "original_source": "tr_xas/cli.py",
+    "original_sha256": "22651c3c8915187ec97dc3df9648be2bbd4e5081fe42bd73dcf8b14ab4acd013",
+    "modified_for_release": true
+  },
+  {
+    "path": "common.py",
+    "sha256": "9321fa1d896fb5486653e516a14d2961dc630c15a1e0e67ee2a6f598f53b8356",
+    "bytes": 3953,
+    "original_source": "tr_xas/common.py",
+    "original_sha256": "813359e9033767cee0b3a8d2ef2242744bd088505fa46f2948e20cf4d1f5fc71",
+    "modified_for_release": true
+  },
+  {
+    "path": "configs/encoder_all10.json",
+    "sha256": "3753a8f8cfaede87ce5bd3fe662843e062b9f315a26c891164571dc2656f9bda",
+    "bytes": 223,
+    "original_source": "configs/encoder_all10.json",
+    "original_sha256": "ca7e9c395ba961d68033485e2ea8269557446677c4eeec36957a422c5d394ab8",
+    "modified_for_release": true
+  },
+  {
+    "path": "configs/encoder_internal8.json",
+    "sha256": "3407fca2f6dfbf6a348333249cff1c56f5f1ecfa891e24ba1ee61022c327ad3a",
+    "bytes": 227,
+    "original_source": "configs/encoder_internal8.json",
+    "original_sha256": "25973c94d03b91ab2a6c2381f4fdad936db4cc7348e7a32da969838715c5a434",
+    "modified_for_release": true
+  },
+  {
+    "path": "configs/forward_finetune.json",
+    "sha256": "be7459dc6ef4ad84936fc9fee9dfb10d93121f2d7d2b9052e09c1d3a6ce0eaf6",
+    "bytes": 155,
+    "original_source": "configs/forward_finetune.json",
+    "original_sha256": "52cdb2e2287d80a0ff6e10c795a3712c6e2d26f2a4e8df5e1c85c6ebd2053471",
+    "modified_for_release": true
+  },
+  {
+    "path": "configs/forward_pretrain.json",
+    "sha256": "3e61ce58aba3c15671fbe729ae643c4ab232d1d97e0170c6f2ab910c1bb80327",
+    "bytes": 148,
+    "original_source": "configs/forward_pretrain.json",
+    "original_sha256": "d53f865ed05354cb388f5d3f03348370d199bb1d80050c0989d24143ee45c855",
+    "modified_for_release": true
+  },
+  {
+    "path": "configs/paths.example.json",
+    "sha256": "7ca3cca4fe4b7ec9ea510cacb2bfd8064a16ce1119fd6d646c424a5521f3d3c6",
+    "bytes": 346,
+    "original_source": "configs/paths.example.json",
+    "original_sha256": "ee7e2e7b65d7e7c5666c0cec6e1b444f6096e9924dd9b5fc389abb79b174cd1d",
+    "modified_for_release": true
+  },
+  {
+    "path": "configs/tcn_final.json",
+    "sha256": "6c1de64618552744658d2fe685a638c1ae54538d40bd582957d39b5876fffa99",
+    "bytes": 141,
+    "original_source": "configs/tcn_final.json",
+    "original_sha256": "0692771621aef463a6c5c414af338d1461bdfd1b75fa168c29b022070183aa39",
+    "modified_for_release": true
+  },
+  {
+    "path": "forward.py",
+    "sha256": "33fb150fe39b8f2c7c011c4d28170c99db22f07d99efc6365b6fe8906692d4fe",
+    "bytes": 2774,
+    "original_source": "tr_xas/forward.py",
+    "original_sha256": "0b7303367240c2975438bd1169a11d2dcaa528a012638dd8ad0f3d4caa2274c4",
+    "modified_for_release": true
+  },
+  {
+    "path": "inference.py",
+    "sha256": "fa3781b464c3ef6a81bacb44da148fef73318ad4451cf6a65a7adbb47bb2f377",
+    "bytes": 6630,
+    "original_source": "tr_xas/inference.py",
+    "original_sha256": "fa3781b464c3ef6a81bacb44da148fef73318ad4451cf6a65a7adbb47bb2f377",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/assets_catalog.json",
+    "sha256": "1b1323f3a9e3052ee4620c51f182eb62d39107d55dc813c34b861865751bf5a2",
+    "bytes": 10498,
+    "original_source": "reference/assets_catalog.json",
+    "original_sha256": "1b1323f3a9e3052ee4620c51f182eb62d39107d55dc813c34b861865751bf5a2",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/baseline_encoder_v2_1.json",
+    "sha256": "0b6feb7c85ad9d0b4ada2635db955db49df8ca61546d317cea2b452f25caf8fd",
+    "bytes": 154776,
+    "original_source": "reference/baseline_encoder_v2_1.json",
+    "original_sha256": "c8b687a782b0f18cd0b064d78be9e192f03e7abb34bc12bed9194da4e51e6099",
+    "modified_for_release": true
+  },
+  {
+    "path": "reference/baseline_tcn_learning_curve.json",
+    "sha256": "4d6638b0c606eece4166d03bab3fd7d184c30815dc57c995508249a9f8e8e9d3",
+    "bytes": 613236,
+    "original_source": "reference/baseline_tcn_learning_curve.json",
+    "original_sha256": "4d6638b0c606eece4166d03bab3fd7d184c30815dc57c995508249a9f8e8e9d3",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/demo_assets.json",
+    "sha256": "22f03b1cca4199decdd3800cbde21f00dd45daeaacf9cad65a6197cd271771e3",
+    "bytes": 4191,
+    "original_source": "reference/demo_assets.json",
+    "original_sha256": "50528e205b94ffb6eb9e6288493cec892767aca9ff762a676e47299b749e97c7",
+    "modified_for_release": true
+  },
+  {
+    "path": "reference/figure3_edge_binding.json",
+    "sha256": "fb6e9962cef122be4466473ac8d5944566f88ff05fd87b30d530cc215bc9323a",
+    "bytes": 1722,
+    "original_source": "reference/figure3_edge_binding.json",
+    "original_sha256": "410190eef5a729ea4ed4165fd5337a0f939680333b8224f7985a8463931ea8a6",
+    "modified_for_release": true
+  },
+  {
+    "path": "reference/mep_split_manifest.json",
+    "sha256": "e90cde3b9a4b84e400672d7caffc0cf060c7adeefc29955bf5f249ffa8e04f81",
+    "bytes": 151218,
+    "original_source": "reference/mep_split_manifest.json",
+    "original_sha256": "e90cde3b9a4b84e400672d7caffc0cf060c7adeefc29955bf5f249ffa8e04f81",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/new_adapter_cpu_validation.json",
+    "sha256": "f95548e9825c0523342005a4b1156ea9d08fd1d1a34955e058dda017c4212ec1",
+    "bytes": 1299,
+    "original_source": "reference/new_adapter_cpu_validation.json",
+    "original_sha256": "f95548e9825c0523342005a4b1156ea9d08fd1d1a34955e058dda017c4212ec1",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/new_adapter_cuda_validation.json",
+    "sha256": "4ba1f77113b57d4c7c437f7122f7d78ead6ccc93d21d50a7516b76f965052c05",
+    "bytes": 1431,
+    "original_source": "reference/new_adapter_cuda_validation.json",
+    "original_sha256": "4ba1f77113b57d4c7c437f7122f7d78ead6ccc93d21d50a7516b76f965052c05",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/original_demo_cuda_verification.json",
+    "sha256": "7f4cf1900aaedcb8d16cf328b69c59691e75da57d9b88ad40901d3935b747910",
+    "bytes": 2219,
+    "original_source": "reference/original_demo_cuda_verification.json",
+    "original_sha256": "7f4cf1900aaedcb8d16cf328b69c59691e75da57d9b88ad40901d3935b747910",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/phase20_plan.json",
+    "sha256": "e223c09ffbc35bf44f697612c68a17dbe5ecf976ed01d335011d0ea72730b0f0",
+    "bytes": 3550,
+    "original_source": "reference/phase20_plan.json",
+    "original_sha256": "e223c09ffbc35bf44f697612c68a17dbe5ecf976ed01d335011d0ea72730b0f0",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/symlink_coverage.json",
+    "sha256": "b116c6c17b9ee71311291466bd066fdb392f7a58afcdb7730c47e303b01a9dad",
+    "bytes": 63,
+    "original_source": "reference/symlink_coverage.json",
+    "original_sha256": "b116c6c17b9ee71311291466bd066fdb392f7a58afcdb7730c47e303b01a9dad",
+    "modified_for_release": false
+  },
+  {
+    "path": "reference/tcn_freeze.json",
+    "sha256": "f9441578a2d25c23b553da81294d31badad89f9df100c2def2eed714cb30288e",
+    "bytes": 4759,
+    "original_source": "reference/tcn_freeze.json",
+    "original_sha256": "2a8c9dc4c401ed824f7f917cef33378a48cbc6bc14464948b10a7a7e21ef436c",
+    "modified_for_release": true
+  },
+  {
+    "path": "reference/verified_runtime.json",
+    "sha256": "0d6a6682375f789c147d8c1b6bcdc5b0f0a67833e05a4dfbe1e3213d976c6385",
+    "bytes": 233,
+    "original_source": "reference/verified_runtime.json",
+    "original_sha256": "0d6a6682375f789c147d8c1b6bcdc5b0f0a67833e05a4dfbe1e3213d976c6385",
+    "modified_for_release": false
+  },
+  {
+    "path": "train_encoder.py",
+    "sha256": "026856992376b997644f0a521560b4f0c2d271a40fffbf85be522f161ad8e503",
+    "bytes": 6860,
+    "original_source": "tr_xas/train_encoder.py",
+    "original_sha256": "026856992376b997644f0a521560b4f0c2d271a40fffbf85be522f161ad8e503",
+    "modified_for_release": false
+  },
+  {
+    "path": "train_forward.py",
+    "sha256": "6f25d9449d3772ee50390620401baaf37f862e786fbe5702dd1ca45ba9f79a82",
+    "bytes": 2705,
+    "original_source": "tr_xas/train_forward.py",
+    "original_sha256": "b93ba333635f1edbc17defb1192d5757731b250ac598b1a3a5f70102a8eef6aa",
+    "modified_for_release": true
+  },
+  {
+    "path": "train_temporal.py",
+    "sha256": "5235a56ecbbcc334934c542f2b01de4429196ed668955fc373c27f2227f3012e",
+    "bytes": 3296,
+    "original_source": "tr_xas/train_temporal.py",
+    "original_sha256": "5235a56ecbbcc334934c542f2b01de4429196ed668955fc373c27f2227f3012e",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/encoder/build_rc_labels.py",
+    "sha256": "c8663267947caf94c37095da4814f5b5aa746ab7e8dc2ee1ac377bc16a880325",
+    "bytes": 7143,
+    "original_source": "vendor/encoder/build_rc_labels.py",
+    "original_sha256": "c8663267947caf94c37095da4814f5b5aa746ab7e8dc2ee1ac377bc16a880325",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/encoder/srp_data.py",
+    "sha256": "01f4a8905cf5375a539143999d3072dfb52cce605f1a0132e4ef466eae38f109",
+    "bytes": 5867,
+    "original_source": "vendor/encoder/srp_data.py",
+    "original_sha256": "01f4a8905cf5375a539143999d3072dfb52cce605f1a0132e4ef466eae38f109",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/encoder/taskA_models.py",
+    "sha256": "cdbbbb5bbb79f7784e62c146d75e05fb60d3086e65973e15fe899140ebf6169e",
+    "bytes": 4395,
+    "original_source": "vendor/encoder/taskA_models.py",
+    "original_sha256": "cdbbbb5bbb79f7784e62c146d75e05fb60d3086e65973e15fe899140ebf6169e",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/encoder/taskB_models.py",
+    "sha256": "c51cca15a28b14ed1d2bd4fe3c6ca9334ec3533a13b5363bedf7de9c682c4762",
+    "bytes": 6439,
+    "original_source": "vendor/encoder/taskB_models.py",
+    "original_sha256": "c51cca15a28b14ed1d2bd4fe3c6ca9334ec3533a13b5363bedf7de9c682c4762",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/encoder/train_taskB.py",
+    "sha256": "33e00bfa8fc900e52df1c1bc7554a556ac73d8525de5ec2d0c0650bde33e87a6",
+    "bytes": 30500,
+    "original_source": "vendor/encoder/train_taskB.py",
+    "original_sha256": "33e00bfa8fc900e52df1c1bc7554a556ac73d8525de5ec2d0c0650bde33e87a6",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/all_atomic_infer.py",
+    "sha256": "77aae41d5143ee5b97ccb8a15454656005a178448631c5e735f3cdb154237030",
+    "bytes": 14045,
+    "original_source": "vendor/equixas/all_atomic_infer.py",
+    "original_sha256": "5ff79c5359c0c563c655d4d929837d75f56e08da83c91c5cfd775ab75e82a077",
+    "modified_for_release": true
+  },
+  {
+    "path": "vendor/fluxxas/all_atomic_train.py",
+    "sha256": "87c3a0cf47e213bc380536800d66a16c949aaf57fef7f5813c19917ba501218d",
+    "bytes": 30386,
+    "original_source": "vendor/equixas/all_atomic_train.py",
+    "original_sha256": "87c3a0cf47e213bc380536800d66a16c949aaf57fef7f5813c19917ba501218d",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/environment_portable.yaml",
+    "sha256": "69ca3210ae419e655ec695c815eb701f2eda7a8f667595e13b097296919348ee",
+    "bytes": 1303,
+    "original_source": "vendor/equixas/environment_portable.yaml",
+    "original_sha256": "69ca3210ae419e655ec695c815eb701f2eda7a8f667595e13b097296919348ee",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/joint_training/dataset.py",
+    "sha256": "fc67ef81734894f20beefae60588b432452027d6cebe4fa254b557f9ac0a73eb",
+    "bytes": 12241,
+    "original_source": "vendor/equixas/joint_training/dataset.py",
+    "original_sha256": "fc67ef81734894f20beefae60588b432452027d6cebe4fa254b557f9ac0a73eb",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/joint_training/multi_element_eval.py",
+    "sha256": "cb161ac63130163658a55242ef8a47921f3b107b17ab3b914b56207a9dd2bcf2",
+    "bytes": 5190,
+    "original_source": "vendor/equixas/joint_training/multi_element_eval.py",
+    "original_sha256": "cb161ac63130163658a55242ef8a47921f3b107b17ab3b914b56207a9dd2bcf2",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/joint_training/train.py",
+    "sha256": "7b51d0e0771162c9adfce94f6db02bdc75729fad6a89d51384a9e759f6179a9c",
+    "bytes": 24466,
+    "original_source": "vendor/equixas/joint_training/train.py",
+    "original_sha256": "7b51d0e0771162c9adfce94f6db02bdc75729fad6a89d51384a9e759f6179a9c",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/logs/joint_multi_keepzeros_2026-06-03_08-12/config.json",
+    "sha256": "d431b0a52bc86f8882d1ed977237574a8b0f86cf1535dc04ea139652f5904091",
+    "bytes": 2208,
+    "original_source": "vendor/equixas/logs/joint_multi_keepzeros_2026-06-03_08-12/config.json",
+    "original_sha256": "70917da85e01bdb6753c4a06b9bff5b953c9f0ee44a4758cea05173577b0df86",
+    "modified_for_release": true
+  },
+  {
+    "path": "vendor/fluxxas/logs/joint_multi_tr1x_finetune_v2_2026-07-24_22-18/config.json",
+    "sha256": "a531cab641c0ccc638a01250b1829522343612cd4cdf783b2a67d77464c1ee38",
+    "bytes": 2251,
+    "original_source": "vendor/equixas/logs/joint_multi_tr1x_finetune_v2_2026-07-24_22-18/config.json",
+    "original_sha256": "a531cab641c0ccc638a01250b1829522343612cd4cdf783b2a67d77464c1ee38",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/logs/USPTO-all_atoms_2025-07-11_15-40/config.json",
+    "sha256": "72e1d4a180d0e82f97bd6db750cb897fb0caad5ff4a154150457d0287587efa5",
+    "bytes": 1885,
+    "original_source": "vendor/equixas/logs/USPTO-all_atoms_2025-07-11_15-40/config.json",
+    "original_sha256": "58fdd372a63473d905bc105acf5d8940d6eb312dce6850579a950afe1b151eca",
+    "modified_for_release": true
+  },
+  {
+    "path": "vendor/fluxxas/predict_transition1x.py",
+    "sha256": "474ab815ce210af259733f7d3956428828a1810efb968355a164d4e06c59b610",
+    "bytes": 13097,
+    "original_source": "vendor/equixas/predict_transition1x.py",
+    "original_sha256": "474ab815ce210af259733f7d3956428828a1810efb968355a164d4e06c59b610",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/dataset/__init__.py",
+    "sha256": "1889721eb722666819f27ef20388bb1b5392a359eba33006e22f3983632d4050",
+    "bytes": 41,
+    "original_source": "vendor/equixas/src/dataset/__init__.py",
+    "original_sha256": "1889721eb722666819f27ef20388bb1b5392a359eba33006e22f3983632d4050",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/dataset/all_atom_xas_dataset.py",
+    "sha256": "75f3218a233ca6bc32dc33a956870254cd2923af6322e9e9819ccc9f6c707f57",
+    "bytes": 8923,
+    "original_source": "vendor/equixas/src/dataset/all_atom_xas_dataset.py",
+    "original_sha256": "36fcd760e275dd2a519356b72b39370c6992db1fa89baeaf739ee02cb4be4272",
+    "modified_for_release": true
+  },
+  {
+    "path": "vendor/fluxxas/src/dataset/xas_dataset.py",
+    "sha256": "1aa5f6ae9f1181dd5b585afcf66aa79e10b7949aa83f2daaaaeabe047772c56a",
+    "bytes": 9661,
+    "original_source": "vendor/equixas/src/dataset/xas_dataset.py",
+    "original_sha256": "caf0dca7ac0f8f412c6afdae852f0b2b0932b4f62638c037d9292af17330648f",
+    "modified_for_release": true
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/__init__.py",
+    "sha256": "ca7bb81862c900e8f04aaab0a05fa69a9eb5acb5007d13b3bd71d93e5428a59a",
+    "bytes": 138,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/__init__.py",
+    "original_sha256": "ca7bb81862c900e8f04aaab0a05fa69a9eb5acb5007d13b3bd71d93e5428a59a",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/activation.py",
+    "sha256": "0190add843c87faf3e2ec6aa64f4b7f46b7c07c23e40f32158c48bd57c93eabe",
+    "bytes": 6276,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/activation.py",
+    "original_sha256": "0190add843c87faf3e2ec6aa64f4b7f46b7c07c23e40f32158c48bd57c93eabe",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/drop.py",
+    "sha256": "7b289ae968ebb9009ba25c44939b4db67e92cb162804a47d23b62242e46dacb1",
+    "bytes": 5027,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/drop.py",
+    "original_sha256": "7b289ae968ebb9009ba25c44939b4db67e92cb162804a47d23b62242e46dacb1",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/edge_rot_mat.py",
+    "sha256": "5f8a75a584f0f9d8fa3ad17ae05d4fcd13a4f9eed541fc09d65b7a94aea14aeb",
+    "bytes": 2352,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/edge_rot_mat.py",
+    "original_sha256": "5f8a75a584f0f9d8fa3ad17ae05d4fcd13a4f9eed541fc09d65b7a94aea14aeb",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/equiformer_v2_oc20.py",
+    "sha256": "66e1e9028762a3fbf693d71e77dccaae7a78910a8a076082485e2343c1626e9f",
+    "bytes": 24619,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/equiformer_v2_oc20.py",
+    "original_sha256": "66e1e9028762a3fbf693d71e77dccaae7a78910a8a076082485e2343c1626e9f",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/gaussian_rbf.py",
+    "sha256": "4f3426e8b15eb294e5d6a52eaf04e92cc3bfac9435c8dcd5a03ad1325d095743",
+    "bytes": 1687,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/gaussian_rbf.py",
+    "original_sha256": "4f3426e8b15eb294e5d6a52eaf04e92cc3bfac9435c8dcd5a03ad1325d095743",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/input_block.py",
+    "sha256": "03b3eff4a221e421d713cba124d290923db56bb59e97d4872492700c08ae3659",
+    "bytes": 5019,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/input_block.py",
+    "original_sha256": "03b3eff4a221e421d713cba124d290923db56bb59e97d4872492700c08ae3659",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/Jd.pt",
+    "sha256": "b4059c45be246dcb6c49c545670b65c56550eb0c2e7a9c92b4b50a92d370dbe2",
+    "bytes": 21697,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/Jd.pt",
+    "original_sha256": "b4059c45be246dcb6c49c545670b65c56550eb0c2e7a9c92b4b50a92d370dbe2",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/layer_norm.py",
+    "sha256": "19af32bc6e1088f186f5e8d90b7dee4087e39bbea79129db168f8d9693757be0",
+    "bytes": 15150,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/layer_norm.py",
+    "original_sha256": "19af32bc6e1088f186f5e8d90b7dee4087e39bbea79129db168f8d9693757be0",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/lr_scheduler.py",
+    "sha256": "f389122b13daa1e43f3e61ffea8d0c7ad1eb4292f178f30db2430d9a36039233",
+    "bytes": 6565,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/lr_scheduler.py",
+    "original_sha256": "f389122b13daa1e43f3e61ffea8d0c7ad1eb4292f178f30db2430d9a36039233",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/module_list.py",
+    "sha256": "5d6df93b68f3ae4d4332ed17018ad988a6e30dcfcb0db42b92aacd10fb796f52",
+    "bytes": 247,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/module_list.py",
+    "original_sha256": "5d6df93b68f3ae4d4332ed17018ad988a6e30dcfcb0db42b92aacd10fb796f52",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/radial_function.py",
+    "sha256": "084e0cd92c84fb3159bf968526c06ee3add87be266b9d620563ffd31e3d63382",
+    "bytes": 844,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/radial_function.py",
+    "original_sha256": "084e0cd92c84fb3159bf968526c06ee3add87be266b9d620563ffd31e3d63382",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/smearing.py",
+    "sha256": "a3acab9800026d1bb9a7016a71a36d0bb8b1d5d1ecc30a9fd358bf54f3e80ec7",
+    "bytes": 2764,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/smearing.py",
+    "original_sha256": "a3acab9800026d1bb9a7016a71a36d0bb8b1d5d1ecc30a9fd358bf54f3e80ec7",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/so2_ops.py",
+    "sha256": "a25ad35178436bb9ccea152334fcec77b6fce0d47ec7312a14caf6ca55f73c7a",
+    "bytes": 13946,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/so2_ops.py",
+    "original_sha256": "a25ad35178436bb9ccea152334fcec77b6fce0d47ec7312a14caf6ca55f73c7a",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/so3.py",
+    "sha256": "bc6c940f08adeab2f3658c2d0531d76ed05b39be7b0a461d1459ae66c47fd43d",
+    "bytes": 25058,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/so3.py",
+    "original_sha256": "bc6c940f08adeab2f3658c2d0531d76ed05b39be7b0a461d1459ae66c47fd43d",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/transformer_block.py",
+    "sha256": "fd9d345d0df9936c1625ecb8d2ef45c9632ee9cfe9f381a32bd021f25b816378",
+    "bytes": 27050,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/transformer_block.py",
+    "original_sha256": "fd9d345d0df9936c1625ecb8d2ef45c9632ee9cfe9f381a32bd021f25b816378",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/utils.py",
+    "sha256": "61f0b84b8400d6c166c1f3a76a536d90e687bb7d0476984ec92d847c3dfba8d5",
+    "bytes": 28760,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/utils.py",
+    "original_sha256": "61f0b84b8400d6c166c1f3a76a536d90e687bb7d0476984ec92d847c3dfba8d5",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/fluxxas/src/model/equiformer_v2/wigner.py",
+    "sha256": "15374ace2caef4735343a012083dd9a76fe2c42c81523a900c098b51b8e2bed8",
+    "bytes": 1554,
+    "original_source": "vendor/equixas/src/model/equiformer_v2/wigner.py",
+    "original_sha256": "15374ace2caef4735343a012083dd9a76fe2c42c81523a900c098b51b8e2bed8",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/temporal/phase20f_train_learning_curve.py",
+    "sha256": "a35925f3a09514fb8555aef2984efd2d0812863898872ba7bf4a37eae8e7848a",
+    "bytes": 23837,
+    "original_source": "vendor/temporal/phase20f_train_learning_curve.py",
+    "original_sha256": "a35925f3a09514fb8555aef2984efd2d0812863898872ba7bf4a37eae8e7848a",
+    "modified_for_release": false
+  },
+  {
+    "path": "vendor/temporal/reference_scoring.py",
+    "sha256": "122ff2eef4d8964df811740149a388c43ae44f301a4ffafa1ae8c6a7a1432588",
+    "bytes": 24721,
+    "original_source": "vendor/temporal/reference_scoring.py",
+    "original_sha256": "bb37a6d8b11d75b1b19099a7594a033c8f186e53b06e2fc994b15af5aef38c3e",
+    "modified_for_release": true
+  }
+]

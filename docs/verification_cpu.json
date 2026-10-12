@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-12",
+  "platform": "Windows x86-64",
+  "python": "3.12.14",
+  "torch": "2.6.0+cpu",
+  "numpy": "1.26.4",
+  "package": "0.2.0",
+  "installation": "non-editable wheel in isolated virtual environment",
+  "tests_run": 11,
+  "test_failures": 0,
+  "test_errors": 0,
+  "test_skips": 0,
+  "source_check_files": 66,
+  "source_check_mismatches": [],
+  "demo_executed_outside_source_tree_with_isolated_python": true,
+  "demo": {
+    "device": "cpu",
+    "torch": "2.6.0+cpu",
+    "numpy": "1.26.4",
+    "status": "NUMERIC_DIFFERENCE",
+    "strict_comparison_requested": false,
+    "cases": [
+      {
+        "fraction": 0.0,
+        "argmax_time_fs": 132.0,
+        "maximum_score": 0.07840591669082642,
+        "max_abs_difference": {
+          "features": 3.2782554626464844e-07,
+          "tcn_raw": 0.00017805397510528564,
+          "tcn_smoothed": 8.624047040939331e-05,
+          "tcn_seed_std": 0.00027561187744140625
+        },
+        "strict_tolerances_pass": false,
+        "reference_argmax_time_fs": 132.0,
+        "candidate_time_matches": true
+      },
+      {
+        "fraction": 0.5,
+        "argmax_time_fs": 83.0,
+        "maximum_score": 0.4744172990322113,
+        "max_abs_difference": {
+          "features": 9.5367431640625e-07,
+          "tcn_raw": 0.00046384334564208984,
+          "tcn_smoothed": 0.0003242194652557373,
+          "tcn_seed_std": 0.0009181499481201172
+        },
+        "strict_tolerances_pass": false,
+        "reference_argmax_time_fs": 83.0,
+        "candidate_time_matches": true
+      },
+      {
+        "fraction": 1.0,
+        "argmax_time_fs": 108.0,
+        "maximum_score": 0.7278414964675903,
+        "max_abs_difference": {
+          "features": 1.1920928955078125e-06,
+          "tcn_raw": 0.0004259049892425537,
+          "tcn_smoothed": 0.00021082162857055664,
+          "tcn_seed_std": 0.00040559470653533936
+        },
+        "strict_tolerances_pass": false,
+        "reference_argmax_time_fs": 108.0,
+        "candidate_time_matches": true
+      }
+    ]
+  },
+  "not_tested": [
+    "EquiXAS graph-model runtime",
+    "full retraining",
+    "CUDA on this machine",
+    "Linux/macOS",
+    "GitHub Actions remote execution"
+  ]
+}

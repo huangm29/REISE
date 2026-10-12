@@ -1,0 +1,10 @@
+{
+  "mep": "CHANGE_ME/datasets/final_mep",
+  "labels": "CHANGE_ME/datasets/rc_labels",
+  "phase20": "CHANGE_ME/datasets/phase20d_20260821_130436",
+  "fg26": "CHANGE_ME/datasets/fg26_dft",
+  "tr1x": "CHANGE_ME/datasets/tr1x_stationary",
+  "fg26_checkpoint": "CHANGE_ME/weights/fg26_pretrained.pt",
+  "demo": "CHANGE_ME/02_model_demo"
+}
+

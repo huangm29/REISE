@@ -1,0 +1,10 @@
+include README.md THIRD_PARTY_NOTICES.md
+recursive-include docs *.md *.json
+recursive-include licenses *
+recursive-include configs *.json
+recursive-include tests *.py
+recursive-include src/tr_xas/vendor *.py *.pt *.json *.yaml
+recursive-include src/tr_xas/reference *.json
+recursive-include src/tr_xas/configs *.json
+recursive-include src/tr_xas/licenses *
+global-exclude __pycache__ *.py[cod]

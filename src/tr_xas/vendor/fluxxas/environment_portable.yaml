@@ -1,0 +1,52 @@
+name: xasnet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26.3
+  - scipy=1.13.1
+  - pandas=2.3.0
+  - matplotlib=3.9.4
+  - seaborn=0.13.2
+  - h5py=3.14.0
+  - pyyaml=6.0.2
+  - jupyter
+  - ipykernel
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - --find-links https://data.pyg.org/whl/torch-2.6.0+cu124.html
+      - torch==2.6.0+cu124
+      - torchvision==0.21.0+cu124
+      - torchaudio==2.6.0+cu124
+      - torch-geometric==2.6.1
+      - pyg-lib==0.4.0+pt26cu124
+      - torch-scatter==2.1.2+pt26cu124
+      - torch-sparse==0.6.18+pt26cu124
+      - torch-cluster==1.6.3+pt26cu124
+      - torch-spline-conv==1.2.2+pt26cu124
+      - accelerate==1.8.1
+      - ase==3.25.0
+      - colorlog==6.9.0
+      - e3nn==0.5.6
+      - hydra-colorlog==1.2.0
+      - hydra-core==1.2.0
+      - omegaconf==2.3.0
+      - opt-einsum==3.4.0
+      - opt-einsum-fx==0.1.4
+      - pillow==11.0.0
+      - protobuf==6.31.1
+      - psutil==7.0.0
+      - pydantic==2.11.7
+      - pytorch-lightning==2.1.4
+      - python-dotenv==1.1.1
+      - rdkit==2025.3.3
+      - requests==2.32.4
+      - safetensors==0.5.3
+      - tensorboard==2.19.0
+      - torchmetrics==1.7.4
+      - tqdm==4.67.1
+      - triton==3.2.0
+      - wandb==0.21.0
+      - werkzeug==3.1.3
