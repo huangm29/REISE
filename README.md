@@ -78,7 +78,7 @@ tr-xas predict --input my_spectra.npz --normalization examples/demo_assets/norma
 ```
 
 Both checkpoint arguments accept multiple paths. The command above uses one
-seed; the demo uses all five. The input requires raw C/N/O spectra with
+seed; the demo uses all five. The input requires raw C, N and O K-edge XAS with
 `query (201,3,200)`, `endpoint (2,3,200)`, `composition (7,)` and
 `time_fs (201,)` at 1 fs spacing. See [data formats](docs/DATA.md).
 
@@ -119,10 +119,3 @@ kept in the repository/release ZIP, outside the wheel. The `check` command
 verifies installed source against this release's manifest; the same manifest
 also retains original source hashes and identifies packaging changes.
 
-## Publication status
-
-Prepared for private repository review before public release. The project authors have
-not yet selected a license for their own code or a distribution policy for the
-example weights/data. Third-party terms are documented in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). See the short
-[publication checklist](docs/RELEASE.md).
